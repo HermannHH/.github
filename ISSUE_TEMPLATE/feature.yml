@@ -1,0 +1,24 @@
+name: Feature
+description: A user-visible change
+title: "[Feature] <concise summary>"
+labels: [feature]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: "As a <role>, I want <goal> so that <benefit>."
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: "Bullet list – these must be true before Done"
+      placeholder: |
+        - [ ] Given ...
+        - [ ] When ...
+        - [ ] Then ...
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Implementation tasks
+      description: "Break work into check-boxes"
